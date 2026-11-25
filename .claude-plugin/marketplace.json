@@ -1,0 +1,13 @@
+{
+  "name": "ie-h",
+  "owner": {
+    "name": "paul1064"
+  },
+  "plugins": [
+    {
+      "name": "ie-h",
+      "source": "./",
+      "description": "Intelligence Explosion Hackathon — Endmutation aus acht geprüften Skills"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "ie-h",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Intelligence Explosion Hackathon — Endmutation aus rückwärtsdestillierten Agent-Skills",
+  "scripts": {
+    "test": "node --test .claude/skills/*/scripts/test.mjs && node tools/check-skills.mjs",
+    "check": "node tools/check-skills.mjs",
+    "measure": "node .claude/skills/scale-it/scripts/measure.mjs .",
+    "bench": "node tools/bench.mjs 70 220"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}

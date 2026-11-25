@@ -1,0 +1,10 @@
+{
+  "name": "ie-h",
+  "version": "1.0.0",
+  "description": "Eight verified skills for recursive self-improvement, oracle-first exploration, evolution, and repository fusion.",
+  "author": {
+    "name": "paul1064"
+  },
+  "license": "MIT",
+  "skills": "./.claude/skills/"
+}

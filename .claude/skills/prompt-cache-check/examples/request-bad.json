@@ -1,0 +1,45 @@
+{
+  "model": "claude-sonnet-4-5",
+  "max_tokens": 1024,
+  "cache_control": {
+    "type": "ephemeral"
+  },
+  "system": [
+    {
+      "type": "text",
+      "text": "Stand: 2026-11-24T10:00 – kurzer Prompt",
+      "cache_control": {
+        "type": "ephemeral"
+      }
+    },
+    {
+      "type": "text",
+      "text": "Regeln A",
+      "cache_control": {
+        "type": "ephemeral",
+        "ttl": "1h"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "Frage 1",
+          "cache_control": {
+            "type": "ephemeral"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Frage 2",
+          "cache_control": {
+            "type": "ephemeral"
+          }
+        }
+      ]
+    }
+  ]
+}
